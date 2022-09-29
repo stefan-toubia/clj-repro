@@ -1,2 +1,10 @@
-{:clean {:after-ns-refactor true
-         :sort {:refer nil}}}
+{:document-formatting? false
+ :document-range-formatting? false
+ :clean {:automatically-after-ns-refactor true
+         :ns-inner-blocks-indentation :keep
+         :ns-import-classes-indentation :keep
+         :sort {:ns nil
+                :require nil
+                :import nil
+                :import-classes nil
+                :refer nil}}}
