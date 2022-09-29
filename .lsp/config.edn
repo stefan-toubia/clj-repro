@@ -1,0 +1,2 @@
+{:clean {:after-ns-refactor true
+         :sort {:refer nil}}}
