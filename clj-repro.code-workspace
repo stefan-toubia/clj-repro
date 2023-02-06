@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "project-a"
+    },
+    {
+      "path": "project-b"
+    }
+  ],
+  "settings": {
+    // Breaks some features like go-to-definition and ns refactoring for
+    // projects in standalone workspace folders.
+    "calva.enableClojureLspOnStart": "when-file-opened-use-furthest-project"
+  }
+}

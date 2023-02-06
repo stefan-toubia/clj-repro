@@ -1,0 +1,1 @@
+{:deps {repo/project-a {:local/root "../project-a"}}}

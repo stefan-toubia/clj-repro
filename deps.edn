@@ -1,1 +1,3 @@
-{:deps {org.clojure/core.async {:mvn/version "1.5.644"}}}
+{:deps {repo/project-a {:local/root "./project-a"}
+        repo/project-b {:local/root "./project-b"}
+        repo/project-c {:local/root "./project-c"}}}
