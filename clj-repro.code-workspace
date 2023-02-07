@@ -11,8 +11,10 @@
     }
   ],
   "settings": {
+    // Starts one LSP proecess per workspace root folder with a Clojure project.
+    "calva.enableClojureLspOnStart": "when-workspace-opened-use-workspace-root"
     // Breaks some features like go-to-definition and ns refactoring for
     // projects in standalone workspace folders.
-    "calva.enableClojureLspOnStart": "when-file-opened-use-furthest-project"
+    // "calva.enableClojureLspOnStart": "when-file-opened-use-furthest-project"
   }
 }
